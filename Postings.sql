@@ -1,0 +1,6 @@
+CREATE TABLE posts (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    text TEXT NOT NULL,
+    date_created DATETIME NOT NULL
+);
